@@ -1,0 +1,84 @@
+{
+	"pages": [
+		{
+			"path": "pages/secondhand/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "pages/secondhand/detail/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/secondhand/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/secondhand/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/secondhand/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/secondhand/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园二手",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#ef4444",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/secondhand/index/index",
+				"text": "首页",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},
+			{
+				"pagePath": "pages/secondhand/publish/publish",
+				"text": "发布",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},
+			{
+				"pagePath": "pages/secondhand/message/message",
+				"text": "消息",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},
+			{
+				"pagePath": "pages/secondhand/my/my",
+				"text": "我的",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			}
+		]
+	}
+}

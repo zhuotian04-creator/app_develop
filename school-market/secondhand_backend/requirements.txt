@@ -1,0 +1,5 @@
+django
+djangorestframework
+django-cors-headers
+requests
+# mysqlclient  # 如果您本地有 MySQL 环境可开启，原型阶段建议先用默认 SQLite

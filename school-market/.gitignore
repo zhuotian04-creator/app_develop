@@ -1,0 +1,9 @@
+node_modules/
+unpackage/
+.hbuilderx/
+.DS_Store
+secondhand_backend/venv/
+secondhand_backend/db.sqlite3
+secondhand_backend/media/
+secondhand_backend/**/__pycache__/
+secondhand_backend/**/*.pyc
